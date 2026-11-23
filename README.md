@@ -1,4 +1,4 @@
-[![Swift](https://design.vapor.codes/images/swift61up.svg)](https://swift.org)
+[![Swift](https://design.vapor.codes/images/swift62up.svg)](https://swift.org)
 [![Documentation](https://design.vapor.codes/images/readthedocs.svg)](Docs/INTEGRATION.md)
 [![Discord](https://design.vapor.codes/images/discordchat.svg)](https://discord.gg/kxfs5n7HVE)
 [![Tests](https://img.shields.io/github/actions/workflow/status/DiscordBM/DiscordAudioKit/ci.yml?event=push&style=plastic&logo=github&label=tests&logoColor=%23ccc)](https://github.com/DiscordBM/DiscordAudioKit/actions/workflows/ci.yml)

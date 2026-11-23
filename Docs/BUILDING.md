@@ -4,7 +4,7 @@ Instructions for building, testing, formatting, and generating documentation for
 
 ## Prerequisites
 
-- **Swift**: 6.1 or higher.
+- **Swift**: 6.2 or higher.
 - **macOS**: macOS 13 (Ventura) or higher with Xcode Command Line Tools.
 - **Linux**: Ubuntu 22.04+ with official Swift toolchain.
 - No external package managers (Homebrew, CMake, vcpkg) are required. All C/C++ native dependencies are vendored.
