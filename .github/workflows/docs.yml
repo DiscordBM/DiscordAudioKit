@@ -1,0 +1,23 @@
+name: Documentation
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  build-docs:
+    name: Build DocC
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Build Documentation
+        run: bash scripts/build-docs.bash
